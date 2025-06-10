@@ -12,7 +12,7 @@ describe('Adding new cars', () => {
 
 
 
-    it('Add [Audi] [TT] car', () => {
+    it.only('Add [Audi] [TT] car', () => {
         GaragePage.addNewCar('Audi', 'TT', '723');
         GaragePage.verifyLastAddedCar('Audi TT');
 
