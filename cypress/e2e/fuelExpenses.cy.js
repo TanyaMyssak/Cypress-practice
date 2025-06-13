@@ -17,7 +17,7 @@ describe('Add Expense Modal', () => {
 });
 
   it('should open the add expense modal, fill form and submit', () => {
-    addExpense.addExpense('Audi TT', '10.06.2025', '15000', '40', '70');
+    addExpense.addExpense('Audi TT', '11.06.2025', '15000', '40', '70');
 
     // Verify modal closed
     cy.get('app-add-expense-modal').should('not.exist');
